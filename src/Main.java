@@ -30,5 +30,16 @@ public class Main {
         frog = frog / 3.5;
         frog = frog + 4.0;
         System.out.println(frog);
+        var theboxer1 = 82.7;
+        System.out.println(theboxer1);
+        var theboxer2 = 78.2;
+        System.out.println(theboxer2);
+        var different = theboxer1 - theboxer2;
+        System.out.println("разница " + different + " килограммов");
+        var theboxer1Waight = 82.7;
+        var theboxer2Waight = 78.2;
+        var commonWaight = theboxer1Waight +  theboxer2Waight;
+        System.out.println("Общий вес боксёров "+commonWaight);
+
     }
 }
