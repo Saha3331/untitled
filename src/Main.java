@@ -50,6 +50,6 @@ public class Main {
         var people3 = people + people2;
         System.out.println(people3);
         var hours1 = general / people3;
-        System.out.println("Если в компании работает" + people3 + "человек , то всего " + hours1 + "Часов работы может быть поделено между содрудниками");
+        System.out.println("Если в компании работает" + people3 + " человек , то всего " + hours1 + "Часов работы может быть поделено между содрудниками");
     }
 }
