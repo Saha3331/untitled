@@ -40,6 +40,16 @@ public class Main {
         var theboxer2Waight = 78.2;
         var commonWaight = theboxer1Waight +  theboxer2Waight;
         System.out.println("Общий вес боксёров "+commonWaight);
-
+        var remains = (theboxer1Waight % theboxer2Waight) ;
+        System.out.println("остаток" + remains + "кг");
+        var general = 640;
+        var hours = 8;
+        var people = general / hours;
+        System.out.println("Всего работников в компании " + people + "человек");
+        var people2 = 94;
+        var people3 = people + people2;
+        System.out.println(people3);
+        var hours1 = general / people3;
+        System.out.println("Если в компании работает" + people3 + "человек , то всего " + hours1 + "Часов работы может быть поделено между содрудниками");
     }
 }
